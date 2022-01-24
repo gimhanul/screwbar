@@ -1,7 +1,5 @@
 ## 1-4. Literal
 
----
-
 Source code에서 프로그래머에 의해 직접 입력된 값을 `literal`이라고 함.
 
 문자 literal, 문자열 literal
