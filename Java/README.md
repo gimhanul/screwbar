@@ -72,3 +72,44 @@
 - 4-15. [Getter와 Setter](https://github.com/gimhanul/TIL/blob/master/Java/Class/Getter%EC%99%80%20Setter/Getter%EC%99%80%20Setter.md)
     - 4-15-1. [Setter](https://github.com/gimhanul/TIL/blob/master/Java/Class/Getter%EC%99%80%20Setter/Setter.md)
     - 4-15-2. [Getter](https://github.com/gimhanul/TIL/blob/master/Java/Class/Getter%EC%99%80%20Setter/Getter.md)
+
+
+## 5. Inheritance
+
+- 5-0. [inheritance](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/inheritance.md)
+- 5-1. [class inheritance](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/class%20inheritance/class%20inheritance.md)
+    - 5-1-1. [특징](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/class%20inheritance/%ED%8A%B9%EC%A7%95.md)
+- 5-2. [super()](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/super().md)
+- 5-3. [Overriding](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/Overriding/Overriding.md)
+    - 5-3-1. [규칙](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/Overriding/%EA%B7%9C%EC%B9%99.md)
+    - 5-3-2. [부모 메소드 호출](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/Overriding/%EB%B6%80%EB%AA%A8%20%EB%A9%94%EC%86%8C%EB%93%9C%20%ED%98%B8%EC%B6%9C.md)
+- 5-4. [final class와 final method](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/final%20class%EC%99%80%20final%20method.md)
+- 5-5. [Polymorphism](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/Polymorphism/polymorphism.md)
+    - 5-5-1. [Promotion](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/Polymorphism/promotion.md)
+    - 5-5-2. [field의 polymorphism](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/Polymorphism/field%EC%9D%98%20polyporphism.md)
+    - 5-5-3. [parameter의 polymorphism](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/Polymorphism/parameter%EC%9D%98%20polymorphism.md)
+    - 5-5-4. [casting](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/Polymorphism/casting.md)
+    - 5-5-5. [instanceof()](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/Polymorphism/instanceof.md) 
+- 5-6. [abstrct class](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/abstract/class/abstract%20class.md)
+    - 5-6-1. [용도](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/abstract/class/%EC%9A%A9%EB%8F%84.md)
+    - 5-6-2. [선언](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/abstract/class/%EC%84%A0%EC%96%B8.md)
+- 5-7. [abstract method](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/abstract/method/abstract%20method.md)
+    - 5-7-1. [선언](https://github.com/gimhanul/TIL/blob/master/Java/Inheritance/abstract/method/%EC%84%A0%EC%96%B8.md)
+
+
+## 6. Interface
+
+- 6-0. [interface](https://github.com/gimhanul/TIL/blob/master/Java/Interface/interface.md)
+- 6-1. [선언](https://github.com/gimhanul/TIL/blob/master/Java/Interface/%EC%84%A0%EC%96%B8/%EC%84%A0%EC%96%B8.md)
+    - 6-1-1. [constant field](https://github.com/gimhanul/TIL/blob/master/Java/Interface/%EC%84%A0%EC%96%B8/constant%20field.md)
+    - 6-1-2. [abstract method](https://github.com/gimhanul/TIL/blob/master/Java/Interface/%EC%84%A0%EC%96%B8/abstract%20method.md)
+- 6-2. [구현](https://github.com/gimhanul/TIL/blob/master/Java/Interface/%EA%B5%AC%ED%98%84/%EA%B5%AC%ED%98%84.md)
+    - 6-2-1. [구현 클래스](https://github.com/gimhanul/TIL/blob/master/Java/Interface/%EA%B5%AC%ED%98%84/%EA%B5%AC%ED%98%84%ED%81%B4%EB%9E%98%EC%8A%A4.md)
+    - 6-2-2. [다중 인터페이스 구현 클래스](https://github.com/gimhanul/TIL/blob/master/Java/Interface/%EA%B5%AC%ED%98%84/%EB%8B%A4%EC%A4%91%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%20%EA%B5%AC%ED%98%84%20%ED%81%B4%EB%9E%98%EC%8A%A4.md)
+- 6-3. [사용](https://github.com/gimhanul/TIL/blob/master/Java/Interface/%EC%82%AC%EC%9A%A9.md)
+- 6-4. [Polymorphism](https://github.com/gimhanul/TIL/blob/master/Java/Interface/Polymorphism/polymorphism.md)
+    - 6-4-1. [promotion](https://github.com/gimhanul/TIL/blob/master/Java/Interface/Polymorphism/promotion.md)
+    - 6-4-2. [field의 polymorphism](https://github.com/gimhanul/TIL/blob/master/Java/Interface/Polymorphism/field%EC%9D%98%20polymorphism.md)
+    - 6-4-3. [parameter의 polymorphism](https://github.com/gimhanul/TIL/blob/master/Java/Interface/Polymorphism/parameter%EC%9D%98%20polymorphism.md)
+    - 6-4-4. [casting](https://github.com/gimhanul/TIL/blob/master/Java/Interface/Polymorphism/casting.md)
+- 6-5. [interface inheritance](https://github.com/gimhanul/TIL/blob/master/Java/Interface/interface%20inheritance.md)
