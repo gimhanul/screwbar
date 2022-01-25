@@ -21,5 +21,5 @@
     - 1-4-1. [Converter](https://github.com/gimhanul/TIL/blob/master/Spring/Data%20Binding/converter.md)
     - 1-4-2. [Formatter](https://github.com/gimhanul/TIL/blob/master/Spring/Data%20Binding/formatter.md)
 - 1-5. [Resource](https://github.com/gimhanul/TIL/blob/master/Spring/Resource/resource.md)
-    - 1-5-1. [Resource 구현체]()
-    - 1-5-2. [Spring Resource Loader]()
+    - 1-5-1. [Resource 구현체](https://github.com/gimhanul/TIL/blob/master/Spring/Resource/resource%20%EA%B5%AC%ED%98%84%EC%B2%B4.md)
+    - 1-5-2. [Spring Resource Loader](https://github.com/gimhanul/TIL/blob/master/Spring/Resource/Spring%20ResourceLoader.md)
