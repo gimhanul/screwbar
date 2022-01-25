@@ -23,3 +23,9 @@
 - 1-5. [Resource](https://github.com/gimhanul/TIL/blob/master/Spring/Resource/resource.md)
     - 1-5-1. [Resource 구현체](https://github.com/gimhanul/TIL/blob/master/Spring/Resource/resource%20%EA%B5%AC%ED%98%84%EC%B2%B4.md)
     - 1-5-2. [Spring Resource Loader](https://github.com/gimhanul/TIL/blob/master/Spring/Resource/Spring%20ResourceLoader.md)
+    - 1-5-3. [ResourcePatternResolver]()
+    - 1-5-4. [applicationContext and Resource Paths]()
+- 1-6. [Spring Expression Language]()
+    - 1-6-1. [SpEL의 값 평가(evaluation)]()
+    - 1-6-2. [Bean의 Property를 설정할 때 사용하는 방식]()
+
