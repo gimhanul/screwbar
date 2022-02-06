@@ -272,3 +272,13 @@
 - 13-1. [람다식](https://github.com/gimhanul/TIL/blob/master/Java/Lambda%20Expression/%EB%9E%8C%EB%8B%A4%EC%8B%9D.md)
 - 13-2. [구현](https://github.com/gimhanul/TIL/blob/master/Java/Lambda%20Expression/%EA%B5%AC%ED%98%84.md)
 - 13-3. [함수형 인터페이스](https://github.com/gimhanul/TIL/blob/master/Java/Lambda%20Expression/%ED%95%A8%EC%88%98%ED%98%95%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.md)
+
+
+## 14. Generic
+- 14-0. [Generic]()
+- 14-1. Generic Class
+    - 14-1-1. [정의]()
+    - 14-1-2. [사용]()
+    - 14-1-3. [자료형 제한]()
+- 14-2. Generic Method
+    - 14-2-1.
