@@ -26,10 +26,9 @@ System.out.println(opt.get());
 
 `get()` 메소드를 사용하여 접근할 수 있음. 만약 저장된 값이 null이면, NoSuchElementException이 발생함.
 
--> `isPresent()` 메소드를 이용해 Optional 객체에 저장된 값이 null인지 아닌지를 확인한 후 호출하는 것이 좋음.
+- `isPresent()` 메소드를 이용해 Optional 객체에 저장된 값이 null인지 아닌지를 확인한 후 호출하는 것이 좋음.
 
--> 혹은 다음 메소드를 사용하여 null 대체값을 지정할 수 있음.
-
+- 혹은 다음 메소드를 사용하여 null 대체값을 지정할 수 있음.
     - `orElse()` : 값이 존재하지 않으면 인수로 전달된 값을 반환함.
     - `orElseGet()`: 값이 존재하지 않으면 인수로 전달된 lambda 식의 결과 값을 반환함.
     - `orElseThrow()` : 값이 존재하지 않으면 인수로 전달된 예외를 발생시킴.
