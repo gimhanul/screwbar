@@ -282,4 +282,4 @@
     - 14-1-2. [사용](https://github.com/gimhanul/TIL/blob/master/Java/Generic/class/%EC%82%AC%EC%9A%A9.md)
     - 14-1-3. [자료형 제한](https://github.com/gimhanul/TIL/blob/master/Java/Generic/class/%EC%9E%90%EB%A3%8C%ED%98%95%20%EC%A0%9C%ED%95%9C.md)
 - 14-2. Generic Method
-    - 14-2-1. [형삭](https://github.com/gimhanul/TIL/blob/master/Java/Generic/method/%ED%98%95%EC%8B%9D.md)
+    - 14-2-1. [형식](https://github.com/gimhanul/TIL/blob/master/Java/Generic/method/%ED%98%95%EC%8B%9D.md)
