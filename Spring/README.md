@@ -41,6 +41,6 @@
     - 2-2-1. [ThreadLocal](https://github.com/gimhanul/TIL/blob/master/Spring/Security/SecurityContextHolderStrategy/ThreadLocal.md)
     - 2-2-2. [InheritableThreadLocal](https://github.com/gimhanul/TIL/blob/master/Spring/Security/SecurityContextHolderStrategy/InheritableThreadLocal.md)
     - 2-2-3. [Global](https://github.com/gimhanul/TIL/blob/master/Spring/Security/SecurityContextHolderStrategy/Global.md)
-- 2-3. [PasswordEncoder](https://github.com/gimhanul/TIL/tree/master/Spring/Security/PasswordEncoder)
+- 2-3. [PasswordEncoder](https://github.com/gimhanul/TIL/tree/master/Spring/Security/PasswordEncoder/PasswordEncoder.md)
     - 2-3-1. [종류](https://github.com/gimhanul/TIL/blob/master/Spring/Security/PasswordEncoder/PasswordEncoder.md)
     - 2-3-2. [DelegatingPasswordEncoder](https://github.com/gimhanul/TIL/blob/master/Spring/Security/PasswordEncoder/DelegatingPasswordEncoder.md)
