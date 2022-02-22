@@ -1,6 +1,6 @@
 ### 2-4-8. ExceptionTranslationFilter
 
-[FilterSecurityInterceptor]()에서 발생한 두 가지 Exception을 처리함.
+[FilterSecurityInterceptor](https://github.com/gimhanul/TIL/blob/master/Spring/Security/Filter/FilterSecurityInterceptor.md)에서 발생한 두 가지 Exception을 처리함.
 
 - `AuthenticationException` : 인증 실패
 - `AccessDeniedException`: 인가 실패
