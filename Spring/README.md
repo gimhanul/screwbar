@@ -63,3 +63,8 @@
     - 2-6-2. [token으로 인증](https://github.com/gimhanul/TIL/tree/master/Spring/Security/JWT/token.md)
     - 2-6-3. [JWT Structure](https://github.com/gimhanul/TIL/tree/master/Spring/Security/JWT/JWTStructure.md)
     - 2-6-4. [Key Rolling](https://github.com/gimhanul/TIL/tree/master/Spring/Security/JWT/KeyRolling.md)
+
+<br>
+
+## 3. Spring OAuth2 Social
+- 3-1. [OAuth 기초 용어]()
