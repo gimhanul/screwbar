@@ -67,9 +67,21 @@
 <br>
 
 ## 3. Spring OAuth2 Social
+
 - 3-1. [OAuth 기초 용어](https://github.com/gimhanul/TIL/blob/master/Spring/OAuth2/%EC%9A%A9%EC%96%B4.md)
 - 3-2. OAuth2 Grant Type
     - 3-2-1. [Authorization Code](https://github.com/gimhanul/TIL/tree/master/Spring/OAuth2/grantType/AuthorizationCode.md)
     - 3-2-2. [Implicit](https://github.com/gimhanul/TIL/tree/master/Spring/OAuth2/grantType/Implicit.md)
     - 3-2-3. [Resource Owner Password Credentials](https://github.com/gimhanul/TIL/tree/master/Spring/OAuth2/grantType/ResourceOwnerPasswordCredentials.md)
     - 3-2-4. [Client Credentials](https://github.com/gimhanul/TIL/tree/master/Spring/OAuth2/grantType/ClientCredentials.md)
+
+<br>
+
+## 4. Spring Batch
+
+- 4-1. [Batch](https://github.com/gimhanul/TIL/tree/master/Spring/Batch/batch.md)
+- 4-2. [Spring Batch Architecture]()
+    - 4-2-1. [Job](https://github.com/gimhanul/TIL/tree/master/Spring/Batch/job.md)
+    - 4-2-2. [Step](https://github.com/gimhanul/TIL/tree/master/Spring/Batch/step.md)
+    - 4-2-3. [Schema](https://github.com/gimhanul/TIL/tree/master/Spring/Batch/schema.md)
+
