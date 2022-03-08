@@ -6,6 +6,8 @@
 
 ✔ [Data Structure](https://github.com/gimhanul/TIL/blob/master/DataStructure/README.md)
 
+✔ [Network](https://github.com/gimhanul/TIL/blob/master/Network/README.md)
+
 ## Language
 ✔ [Java](https://github.com/gimhanul/TIL/blob/master/Java/README.md)
 
