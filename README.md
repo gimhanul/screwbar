@@ -11,7 +11,7 @@
 ## Language
 ✔ [Java](https://github.com/gimhanul/TIL/blob/master/Java/README.md)
 
-✔ [SQL]()
+✔ [SQL](https://github.com/gimhanul/TIL/blob/master/SQL/README.md)
 
 ## Framework
 ✔ [Spring](https://github.com/gimhanul/TIL/blob/master/Spring/README.md)
