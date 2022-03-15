@@ -11,6 +11,11 @@
     - 0-2-4. [Internet](https://github.com/gimhanul/TIL/blob/master/Network/network/%EB%B6%84%EB%A5%98/Internet.md)
     - 0-2-5. [Mobile Telecommunication](https://github.com/gimhanul/TIL/blob/master/Network/network/%EB%B6%84%EB%A5%98/MobileTelecommunication.md)
 
+## 1. network 구성 요소
+- 1-1. [하드웨어]()
+    - 1-1-1. [전송 매체의 종류]()
+- 1-2. [네트워크 장비]()
+
 ## 1. HTTP
 
 - 1-1. [HTTP: Hyper Text Transfer Protocol](https://github.com/gimhanul/TIL/blob/master/Network/HTTP/HTTP.md)
