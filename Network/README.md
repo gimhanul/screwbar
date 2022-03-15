@@ -12,9 +12,9 @@
     - 0-2-5. [Mobile Telecommunication](https://github.com/gimhanul/TIL/blob/master/Network/network/%EB%B6%84%EB%A5%98/MobileTelecommunication.md)
 
 ## 1. network 구성 요소
-- 1-1. [하드웨어]()
-    - 1-1-1. [전송 매체의 종류]()
-- 1-2. [네트워크 장비]()
+- 1-1. [하드웨어](https://github.com/gimhanul/TIL/blob/master/Network/%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4.md)
+    - 1-1-1. [전송 매체의 종류](https://github.com/gimhanul/TIL/blob/master/Network/%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C/%EC%A0%84%EC%86%A1%20%EB%A7%A4%EC%B2%B4.md)
+- 1-2. [네트워크 장비](https://github.com/gimhanul/TIL/blob/master/Network/%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C/%EC%9E%A5%EB%B9%84.md)
 
 ## 1. HTTP
 
