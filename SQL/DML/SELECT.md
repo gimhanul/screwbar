@@ -39,6 +39,7 @@ SELECT name as 이름, price as 가격 FROM <tableName>
 **WHERE**
 
 - WHERE을 뒤에 붙여 SELECT 조건을 달아줄 수 있음.
+- `AND`, `OR` 등 복합 연산자를 통해 여러 개의 조건을 달 수 있음.
 
 ```sql
 SELECT * FROM <tableName> WHERE <condition>
@@ -69,10 +70,6 @@ SELECT * FROM <tableName> WHERE <condition>
 |%축구%|축구를 포함하는 단어|
 
 > `_` 쓰면 한 글자 뭐가 와도 괜찮다는 뜻
-
-복합조건 and or not
-
-select 할 때 속성에 `as 별명` 해주면 별명으로 결과 나옮.
 
 <br>
 
@@ -132,7 +129,7 @@ ORDER BY 기준(속성)
 
 중복제거 아니라 그냥 그룹 지어준 거임.
 
-`having`으로 group by애 대해 조건을 걸 수 있음.
+`having`으로 group by에 대해 조건을 걸 수 있음.
 
 <br>
 
