@@ -145,4 +145,68 @@ ORDER BY 기준(속성)
 
 > 테이블 두 개를 합칠 수 있는 모든 경우의 수가 다 나타나는 연산.
 
-조건은 똑같이 where로 줌.
+조건은 똑같이 where로 줌. (약식)
+
+<br>
+
+**INNER JOIN**
+
+```sql
+INNER JOIN [table]
+ON [조건]
+```
+
+매칭이 안 되면 SELECT도 안 됨.
+
+> 여러 개 써서 조건을 줄 수 있음.
+
+<br>
+
+**LEFT JOIN**
+
+```sql
+LEFT JOIN [table]
+ON [조건]
+```
+
+table 기준으로 전부 다 출력함. 
+
+매칭 안 돼도 출력함.
+
+<br>
+
+**RIGHT JOIN**
+
+```sql
+RIGHT JOIN [table]
+ON [조건]
+```
+
+table에 join한 테이블 기준으로 있는 거 다 출력함.
+
+매칭 안 돼도 출력함.
+
+<br>
+
+**FULL JOIN**
+
+```sql
+FULL JOIN [table]
+ON [조건]
+```
+
+left + right 합침
+
+<br>
+
+**부속 질의**
+
+질의문 안에 질의문이 또 들어감
+
+```sql
+SELECT *
+FROM [table]
+WHERE [조건(조건)]
+```
+
+> 부속질의에서 값이 한 개가 나오면 `=` 을 써도 되지만 여러 개가 나온다면 `IN`을 써주면 됨.
