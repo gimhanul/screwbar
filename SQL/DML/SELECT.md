@@ -27,7 +27,7 @@ SELECT <attribute> FROM <tableName>
 - `as` 를 사용해서 특정 column을 불러올 때 다른 이름으로 표시할 수 있음.
 
 ```sql
-SELECT name as 이름, price as 가격 FROM <tableName>
+SELECT name AS 이름, price AS 가격 FROM <tableName>
 ```
 
 > 생략 가능함.
@@ -81,8 +81,8 @@ SELECT * FROM <tableName> WHERE <condition>
 중복제거
 
 ```sql
-select distinct publisher
-from book
+SELECT DISTINCT publisher
+FROM book
 ```
 
 <br>
@@ -97,8 +97,8 @@ ORDER BY 기준(속성)
 
 속성을 기준으로 정렬함.
 
-- 내림차순: `desc` (null은 최대치 인식)
-- 오름차순: `asc` (default)
+- 내림차순: `DESC` (null은 최대치 인식)
+- 오름차순: `ASC` (default)
 
 > 문자 정렬 기준은 숫자 -> 영문자 -> 한글
 
