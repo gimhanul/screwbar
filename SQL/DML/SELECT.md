@@ -3,7 +3,8 @@
 SELECT는 데이터를 불러오는 명령어임.
 
 ```sql
-SELECT <attribute> FROM <tableName>
+SELECT <attribute>
+FROM <tableName>
 ```
 
 과 같은 형태로 불러올 수 있음.
@@ -27,7 +28,8 @@ SELECT <attribute> FROM <tableName>
 - `as` 를 사용해서 특정 column을 불러올 때 다른 이름으로 표시할 수 있음.
 
 ```sql
-SELECT name AS 이름, price AS 가격 FROM <tableName>
+SELECT name AS 이름, price AS 가격
+FROM <tableName>
 ```
 
 > 생략 가능함.
@@ -42,7 +44,9 @@ SELECT name AS 이름, price AS 가격 FROM <tableName>
 - `AND`, `OR` 등 복합 연산자를 통해 여러 개의 조건을 달 수 있음.
 
 ```sql
-SELECT * FROM <tableName> WHERE <condition>
+SELECT *
+FROM <tableName>
+WHERE <condition>
 ```
 
 |술어|연산자|
