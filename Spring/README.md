@@ -41,7 +41,7 @@
     - 2-2-1. [ThreadLocal](https://github.com/gimhanul/TIL/blob/main/Spring/Security/SecurityContextHolderStrategy/ThreadLocal.md)
     - 2-2-2. [InheritableThreadLocal](https://github.com/gimhanul/TIL/blob/main/Spring/Security/SecurityContextHolderStrategy/InheritableThreadLocal.md)
     - 2-2-3. [Global](https://github.com/gimhanul/TIL/blob/main/Spring/Security/SecurityContextHolderStrategy/Global.md)
-- 2-3. [PasswordEncoder](https://github.com/gimhanul/TIL/tree/master/Spring/Security/PasswordEncoder/PasswordEncoder.md)
+- 2-3. [PasswordEncoder](https://github.com/gimhanul/TIL/tree/main/Spring/Security/PasswordEncoder/PasswordEncoder.md)
     - 2-3-1. [종류](https://github.com/gimhanul/TIL/blob/main/Spring/Security/PasswordEncoder/PasswordEncoder.md)
     - 2-3-2. [DelegatingPasswordEncoder](https://github.com/gimhanul/TIL/blob/main/Spring/Security/PasswordEncoder/DelegatingPasswordEncoder.md)
 - 2-4. [Filter](https://github.com/gimhanul/TIL/blob/main/Spring/Security/Filter/Filter.md)
@@ -54,15 +54,15 @@
     - 2-4-7. [FilterSecurityInterceptor](https://github.com/gimhanul/TIL/blob/main/Spring/Security/Filter/FilterSecurityInterceptor.md)
     - 2-4-8. [ExceptionTranslationFilter](https://github.com/gimhanul/TIL/blob/main/Spring/Security/Filter/ExceptionTranslationFilter.md)
 - 2-5. 부가기능
-    - 2-5-1. [Spring Security Config](https://github.com/gimhanul/TIL/tree/master/Spring/Security/add-ons/Config.md)
-    - 2-5-2. [UrlMatchers](https://github.com/gimhanul/TIL/tree/master/Spring/Security/add-ons/UrlMatchers.md)
-    - 2-5-3. [Test](https://github.com/gimhanul/TIL/tree/master/Spring/Security/add-ons/Test.md)
-    - 2-5-4. [Custom Filter](https://github.com/gimhanul/TIL/tree/master/Spring/Security/add-ons/CustomFilter.md)
+    - 2-5-1. [Spring Security Config](https://github.com/gimhanul/TIL/tree/main/Spring/Security/add-ons/Config.md)
+    - 2-5-2. [UrlMatchers](https://github.com/gimhanul/TIL/tree/main/Spring/Security/add-ons/UrlMatchers.md)
+    - 2-5-3. [Test](https://github.com/gimhanul/TIL/tree/main/Spring/Security/add-ons/Test.md)
+    - 2-5-4. [Custom Filter](https://github.com/gimhanul/TIL/tree/main/Spring/Security/add-ons/CustomFilter.md)
 - 2-6. JWT
-    - 2-6-1. [session으로 인증](https://github.com/gimhanul/TIL/tree/master/Spring/Security/JWT/session.md)
-    - 2-6-2. [token으로 인증](https://github.com/gimhanul/TIL/tree/master/Spring/Security/JWT/token.md)
-    - 2-6-3. [JWT Structure](https://github.com/gimhanul/TIL/tree/master/Spring/Security/JWT/JWTStructure.md)
-    - 2-6-4. [Key Rolling](https://github.com/gimhanul/TIL/tree/master/Spring/Security/JWT/KeyRolling.md)
+    - 2-6-1. [session으로 인증](https://github.com/gimhanul/TIL/tree/main/Spring/Security/JWT/session.md)
+    - 2-6-2. [token으로 인증](https://github.com/gimhanul/TIL/tree/main/Spring/Security/JWT/token.md)
+    - 2-6-3. [JWT Structure](https://github.com/gimhanul/TIL/tree/main/Spring/Security/JWT/JWTStructure.md)
+    - 2-6-4. [Key Rolling](https://github.com/gimhanul/TIL/tree/main/Spring/Security/JWT/KeyRolling.md)
 
 <br>
 
@@ -70,18 +70,18 @@
 
 - 3-1. [OAuth 기초 용어](https://github.com/gimhanul/TIL/blob/main/Spring/OAuth2/%EC%9A%A9%EC%96%B4.md)
 - 3-2. OAuth2 Grant Type
-    - 3-2-1. [Authorization Code](https://github.com/gimhanul/TIL/tree/master/Spring/OAuth2/grantType/AuthorizationCode.md)
-    - 3-2-2. [Implicit](https://github.com/gimhanul/TIL/tree/master/Spring/OAuth2/grantType/Implicit.md)
-    - 3-2-3. [Resource Owner Password Credentials](https://github.com/gimhanul/TIL/tree/master/Spring/OAuth2/grantType/ResourceOwnerPasswordCredentials.md)
-    - 3-2-4. [Client Credentials](https://github.com/gimhanul/TIL/tree/master/Spring/OAuth2/grantType/ClientCredentials.md)
+    - 3-2-1. [Authorization Code](https://github.com/gimhanul/TIL/tree/main/Spring/OAuth2/grantType/AuthorizationCode.md)
+    - 3-2-2. [Implicit](https://github.com/gimhanul/TIL/tree/main/Spring/OAuth2/grantType/Implicit.md)
+    - 3-2-3. [Resource Owner Password Credentials](https://github.com/gimhanul/TIL/tree/main/Spring/OAuth2/grantType/ResourceOwnerPasswordCredentials.md)
+    - 3-2-4. [Client Credentials](https://github.com/gimhanul/TIL/tree/main/Spring/OAuth2/grantType/ClientCredentials.md)
 
 <br>
 
 ## 4. Spring Batch
 
-- 4-1. [Batch](https://github.com/gimhanul/TIL/tree/master/Spring/Batch/batch.md)
+- 4-1. [Batch](https://github.com/gimhanul/TIL/tree/main/Spring/Batch/batch.md)
 - 4-2. [Spring Batch Architecture]()
-    - 4-2-1. [Job](https://github.com/gimhanul/TIL/tree/master/Spring/Batch/job.md)
-    - 4-2-2. [Step](https://github.com/gimhanul/TIL/tree/master/Spring/Batch/step.md)
-    - 4-2-3. [Schema](https://github.com/gimhanul/TIL/tree/master/Spring/Batch/schema.md)
+    - 4-2-1. [Job](https://github.com/gimhanul/TIL/tree/main/Spring/Batch/job.md)
+    - 4-2-2. [Step](https://github.com/gimhanul/TIL/tree/main/Spring/Batch/step.md)
+    - 4-2-3. [Schema](https://github.com/gimhanul/TIL/tree/main/Spring/Batch/schema.md)
 
