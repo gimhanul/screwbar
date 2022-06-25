@@ -31,8 +31,8 @@
 - 3-4. [다중화](https://github.com/gimhanul/TIL/blob/main/Network/%EC%A0%84%EC%86%A1%EB%B0%A9%EC%8B%9D/%EB%8B%A4%EC%A4%91%ED%99%94.md)
 
 ## 4. 계층 구조
-- 4-1. [OSI 7 Layer]()
-- 4-2. [TCP/IP 계층 구조]()
+- 4-1. [OSI 7 Layer](https://github.com/gimhanul/TIL/blob/main/Network/%EA%B3%84%EC%B8%B5%EA%B5%AC%EC%A1%B0/OSI7Layer.md)
+- 4-2. [TCP/IP 계층 구조](https://github.com/gimhanul/TIL/blob/main/Network/%EA%B3%84%EC%B8%B5%EA%B5%AC%EC%A1%B0/TCPIP.md)
 
 ## 1. HTTP
 
