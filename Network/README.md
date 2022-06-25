@@ -17,6 +17,18 @@
 - 1-2. [네트워크 장비](https://github.com/gimhanul/TIL/blob/main/Network/%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C/%EC%9E%A5%EB%B9%84.md)
 - 1-3. [소프트웨어](https://github.com/gimhanul/TIL/blob/main/Network/%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4.md)
     - 1-3-1. [protocol](https://github.com/gimhanul/TIL/blob/main/Network/%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C/protocol.md)
+- 1-4. [아날로그 신호와 디지털 신호]()
+
+## 2. 교환 방식
+- 2-1. [교환 방식]()
+    - 2-1-1. [회선 교환 방식]()
+    - 2-1-2. [패킷 교환 방식]()
+
+## 3. 전송 방식
+- 3-1. [전송 방식]()
+- 3-2. [동기식 전송과 비동기식 전송]()
+- 3-3. [직렬 전송과 병렬 전송]()
+- 3-4. [다중화]()
 
 ## 1. HTTP
 
