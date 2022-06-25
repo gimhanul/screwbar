@@ -30,6 +30,9 @@
 - 3-3. [직렬 전송과 병렬 전송](https://github.com/gimhanul/TIL/blob/main/Network/%EC%A0%84%EC%86%A1%EB%B0%A9%EC%8B%9D/%EC%A7%81%EB%A0%AC%EB%B3%91%EB%A0%AC.md)
 - 3-4. [다중화](https://github.com/gimhanul/TIL/blob/main/Network/%EC%A0%84%EC%86%A1%EB%B0%A9%EC%8B%9D/%EB%8B%A4%EC%A4%91%ED%99%94.md)
 
+## 4. 계층 구조
+- 4-1. [OSI 7 Layer]()
+
 ## 1. HTTP
 
 - 1-1. [HTTP: Hyper Text Transfer Protocol](https://github.com/gimhanul/TIL/blob/main/Network/HTTP/HTTP.md)
