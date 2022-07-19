@@ -3,7 +3,7 @@
 
 ## Computer Science
 
-✔ [OperatingSystem](https://github.com/gimhanul/TIL/blob/main/OperatingSystem/README.md)
+✔ [Operating System](https://github.com/gimhanul/TIL/blob/main/OperatingSystem/README.md)
 
 ✔ [Algorithm](https://github.com/gimhanul/TIL/blob/main/Algorithm/README.md)
 
