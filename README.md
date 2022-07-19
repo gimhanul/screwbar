@@ -2,6 +2,9 @@
 
 
 ## Computer Science
+
+✔ [OperatingSystem](https://github.com/gimhanul/TIL/blob/main/OperatingSystem/README.md)
+
 ✔ [Algorithm](https://github.com/gimhanul/TIL/blob/main/Algorithm/README.md)
 
 ✔ [Data Structure](https://github.com/gimhanul/TIL/blob/main/DataStructure/README.md)
@@ -20,4 +23,3 @@
 ## Framework
 ✔ [Spring](https://github.com/gimhanul/TIL/blob/main/Spring/README.md)
 
- 
