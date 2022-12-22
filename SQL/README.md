@@ -2,7 +2,7 @@
 
 ## 1. SQL
 
-- 1-0. [SQL](https://github.com/gimhanul/screwbar/blob/main/SQL/SQL.md)
+- 1-0. [개요](https://github.com/gimhanul/screwbar/blob/main/SQL/개요.md)
 
 
 
