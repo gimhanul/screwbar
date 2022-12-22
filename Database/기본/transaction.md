@@ -1,4 +1,4 @@
-# 3. Transaction
+# 2-4. Transaction
 
 > 데이터베이스의 상태를 변화시키기 위해 수행하는 작업의 단위
 

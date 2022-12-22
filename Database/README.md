@@ -1,4 +1,4 @@
-# Databases
+# Database
 
 ## 1. 개념
 
@@ -12,4 +12,7 @@
 - 2-1. [relation](https://github.com/gimhanul/screwbar/blob/main/Database/기본/relation.md)
 - 2-2. [key](https://github.com/gimhanul/screwbar/blob/main/Database/기본/key.md)
 - 2-3. [무결성 제약조건](https://github.com/gimhanul/screwbar/blob/main/Database/기본/무결성제약조건.md)
-- 2-3. [Transaction](https://github.com/gimhanul/screwbar/blob/main/Database/기본/transaction.md)
+- 2-4. [Transaction](https://github.com/gimhanul/screwbar/blob/main/Database/기본/transaction.md)
+- 2-5. [설계](https://github.com/gimhanul/screwbar/blob/main/Database/기본/설계.md)
+- 2-6. [함수적 종속](https://github.com/gimhanul/screwbar/blob/main/Database/기본/함수적종속.md)
+- 2-7. [정규화](https://github.com/gimhanul/screwbar/blob/main/Database/기본/정규화.md)
