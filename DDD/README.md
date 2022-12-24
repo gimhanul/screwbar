@@ -9,3 +9,7 @@
 - 1.5. [도메인 모델 도출](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인모델시작하기/도메인모델도출.md)
 - 1.6. [엔티티와 밸류](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인모델시작하기/엔티티와밸류.md)
 - 1.7. [도메인 용어와 유비쿼터스 언어](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인모델시작하기/도메인용어와유비쿼터스언어.md)
+
+## 2. 아키텍처 개요
+
+- 2.1. [네 개의 영역](https://github.com/gimhanul/screwbar/blob/main/DDD/아키텍처개요/네개의영역.md)
