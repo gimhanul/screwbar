@@ -13,3 +13,4 @@
 ## 2. 아키텍처 개요
 
 - 2.1. [네 개의 영역](https://github.com/gimhanul/screwbar/blob/main/DDD/아키텍처개요/네개의영역.md)
+- 2.1. [계층 구조 아키텍처](https://github.com/gimhanul/screwbar/blob/main/DDD/아키텍처개요/계층구조아키텍처.md)
