@@ -19,3 +19,7 @@
 - 2.5. [요청 처리 흐름](https://github.com/gimhanul/screwbar/blob/main/DDD/아키텍처개요/요청처리흐름.md)
 - 2.6. [인프라스트럭처 개요](https://github.com/gimhanul/screwbar/blob/main/DDD/아키텍처개요/인프라스트럭처개요.md)
 - 2.7. [모듈 구성](https://github.com/gimhanul/screwbar/blob/main/DDD/아키텍처개요/모듈구성.md)
+
+## 3. 애그리거트
+
+- 3.1. [애그리거트](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트/애그리거트.md)
