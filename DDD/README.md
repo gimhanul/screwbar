@@ -23,3 +23,8 @@
 ## 3. 애그리거트
 
 - 3.1. [애그리거트](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트/애그리거트.md)
+- 3.2. [애그리거트 루트](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트/애그리거트루트.md)
+- 3.3. [리포지터리와 애그리거트](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트/리포지터리와애그리거트.md)
+- 3.4. [ID를 이용한 애그리거트 참조](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트/ID를이용한애그리거트참조.md)
+- 3.5. [애그리거트 간 집합 연관](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트/애그리거트간집합연관.md)
+- 3.6. [애그리거트를 팩토리로 사용하기](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트/애그리거트를팩토리로사용하기.md)
