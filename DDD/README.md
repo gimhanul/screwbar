@@ -28,3 +28,9 @@
 - 3.4. [ID를 이용한 애그리거트 참조](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트/ID를이용한애그리거트참조.md)
 - 3.5. [애그리거트 간 집합 연관](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트/애그리거트간집합연관.md)
 - 3.6. [애그리거트를 팩토리로 사용하기](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트/애그리거트를팩토리로사용하기.md)
+
+## 4. 리포지터리와 모델 구현
+
+- 4.1. [JPA를 이용한 리포지터리 구현](https://github.com/gimhanul/screwbar/blob/main/DDD/리포지터리와모델구현/JPA를이용한리포지터리구현.md)
+- 4.2. [스프링 데이터 JPA를 이용한 리포지터리 구현](https://github.com/gimhanul/screwbar/blob/main/DDD/리포지터리와모델구현/스프링데이터JPA를이용한리포지터리구현.md)
+- 4.3. [매핑 구현](https://github.com/gimhanul/screwbar/blob/main/DDD/리포지터리와모델구현/매핑구현.md)
