@@ -34,3 +34,6 @@
 - 4.1. [JPA를 이용한 리포지터리 구현](https://github.com/gimhanul/screwbar/blob/main/DDD/리포지터리와모델구현/JPA를이용한리포지터리구현.md)
 - 4.2. [스프링 데이터 JPA를 이용한 리포지터리 구현](https://github.com/gimhanul/screwbar/blob/main/DDD/리포지터리와모델구현/스프링데이터JPA를이용한리포지터리구현.md)
 - 4.3. [매핑 구현](https://github.com/gimhanul/screwbar/blob/main/DDD/리포지터리와모델구현/매핑구현.md)
+- 4.4. [애그리거트의 영속성 전파](https://github.com/gimhanul/screwbar/blob/main/DDD/리포지터리와모델구현/애그리거트의영속성전파.md)
+- 4.5. [식별자 생성 기능](https://github.com/gimhanul/screwbar/blob/main/DDD/리포지터리와모델구현/식별자생성기능.md)
+- 4.6. [도메인 구현과 DIP](https://github.com/gimhanul/screwbar/blob/main/DDD/리포지터리와모델구현/도메인구현과DIP.md)
