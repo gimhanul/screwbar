@@ -43,3 +43,6 @@
 - 5.1. [시작에 앞서](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/시작에앞서.md)
 - 5.2. [검색을 위한 스펙](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/검색을위한스펙.md)
 - 5.3. [스프링 데이터 JPA를 이용한 스펙 구현](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/스프링데이터JPA를이용한스펙구현.md)
+- 5.4. [리포지터리/DAO에서 스펙 사용하기](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/리포지터리DAO에서스펙사용하기.md)
+- 5.5. [스펙 조합](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/스펙조합.md)
+- 5.6. [정렬 지정하기](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/정렬지정하기.md)
