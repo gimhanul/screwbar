@@ -46,3 +46,7 @@
 - 5.4. [리포지터리/DAO에서 스펙 사용하기](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/리포지터리DAO에서스펙사용하기.md)
 - 5.5. [스펙 조합](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/스펙조합.md)
 - 5.6. [정렬 지정하기](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/정렬지정하기.md)
+- 5.7. [페이징 처리하기](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/페이징처리하기.md)
+- 5.8. [스펙 조합을 위한 스펙 빌더 클래스](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/스펙조합을위한스펙빌더클래스.md)
+- 5.9. [동적 인스턴스 생성](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/동적인스턴스생성.md)
+- 5.10. [하이버네이트 @Subselect 사용](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/하이버네이트골뱅이Subselect사용.md)
