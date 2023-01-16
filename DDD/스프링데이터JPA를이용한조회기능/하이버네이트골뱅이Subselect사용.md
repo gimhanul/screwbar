@@ -75,14 +75,14 @@ List<OrderSummary> summaries = orderSummaryRepository.findByOrdererId(userId);
 
 이런 문제를 해소하기 위한 용도로 `@Synchronize` 임.
 
-- `@Synchronize` 는 해당 엔티티와 관련된 테이블 목록을 명시함.
+- `@Synchronize` 는 **해당 엔티티와 관련된 테이블 목록을 명시**함.
 - 하이버네이트는 엔티티를 로딩하기 전에 지정한 테이블과 관련된 변경이 발생하면 flush 를 먼저 함.
 - OrderSummary 의 `@Synchronize` 는 'purchase_order' 테이블을 지정하고 있으므로, OrderSummary 를 로딩하기 전에 purchase_order 테이블에 변경이 발생하면 관련 내역을 먼저 flush 함.
 - 따라서 OrderSummary 를 로딩하는 시점에서는 변경 내역이 반영됨.
 
 <br>
 
-### `@Subselect`
+### `@Subselect` 유의할 점
 
 `@Subselect` 를 사용해도 일반 `@Entity` 와 같기 때문에, `EntityManager#find()`, JPQL, Criteria 를 사용해서 조회할 수 있고, 스펙도 사용할 수 있음.
 

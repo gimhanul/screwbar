@@ -50,3 +50,7 @@
 - 5.8. [스펙 조합을 위한 스펙 빌더 클래스](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/스펙조합을위한스펙빌더클래스.md)
 - 5.9. [동적 인스턴스 생성](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/동적인스턴스생성.md)
 - 5.10. [하이버네이트 @Subselect 사용](https://github.com/gimhanul/screwbar/blob/main/DDD/스프링데이터JPA를이용한조회기능/하이버네이트골뱅이Subselect사용.md)
+
+## 6. 응용 서비스와 표현 영역
+
+- 6.1. [표현 영역과 응용 영역](https://github.com/gimhanul/screwbar/blob/main/DDD/응용서비스와표현영역/표현영역과응용영역.md)
