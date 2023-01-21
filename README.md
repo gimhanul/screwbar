@@ -1,6 +1,7 @@
 ## 📝 오늘 배운 것들을 기록합니다.
 
 - [Algorithm](https://github.com/gimhanul/screwbar/blob/main/Algorithm/README.md)
+- [Clean Code](https://github.com/gimhanul/screwbar/blob/main/CleanCode/README.md)
 - [Database](https://github.com/gimhanul/screwbar/blob/main/Database/README.md)
 - [Data Structure](https://github.com/gimhanul/screwbar/blob/main/DataStructure/README.md)
 - [Domain Driven Design](https://github.com/gimhanul/screwbar/blob/main/DDD/README.md)
