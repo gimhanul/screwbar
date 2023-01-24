@@ -60,3 +60,8 @@
 - 6.5. [값 검증](https://github.com/gimhanul/screwbar/blob/main/DDD/표현영역과응용영역/값검증.md)
 - 6.6. [권한 검사](https://github.com/gimhanul/screwbar/blob/main/DDD/표현영역과응용영역/권한검사.md)
 - 6.7. [조회 전용 기능과 응용 서비스](https://github.com/gimhanul/screwbar/blob/main/DDD/표현영역과응용영역/조회전용기능과응용서비스.md)
+
+## 7. 도메인 서비스
+
+- 7.1. [여러 애그리거트가 필요한 기능](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/여러애그리거트가필요한기능.md)
+- 7.2. [도메인 서비스](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/도메인서비스.md)
