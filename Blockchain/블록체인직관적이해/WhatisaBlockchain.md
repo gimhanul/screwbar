@@ -1,5 +1,7 @@
 ## 1.1. What is a Blockchain?
 
+<br>
+
 ### 시작
 
 - Stuart Haber
