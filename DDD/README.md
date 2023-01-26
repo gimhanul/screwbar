@@ -65,3 +65,9 @@
 
 - 7.1. [여러 애그리거트가 필요한 기능](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/여러애그리거트가필요한기능.md)
 - 7.2. [도메인 서비스](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/도메인서비스.md)
+
+## 8. 애그리거트 트랜잭션 관리
+
+- 8.1. [애그리거트와 트랜잭션](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/애그리거트와트랜잭션.md)
+- 8.2. [선점 잠금](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/선점잠금.md)
+- 8.3. [비선점 잠금](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/비선점잠금.md)
