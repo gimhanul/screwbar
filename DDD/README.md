@@ -71,3 +71,4 @@
 - 8.1. [애그리거트와 트랜잭션](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/애그리거트와트랜잭션.md)
 - 8.2. [선점 잠금](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/선점잠금.md)
 - 8.3. [비선점 잠금](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/비선점잠금.md)
+- 8.4. [오프라인 선점 잠금](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/오프라인선점잠금.md)
