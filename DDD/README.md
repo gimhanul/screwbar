@@ -68,7 +68,13 @@
 
 ## 8. 애그리거트 트랜잭션 관리
 
-- 8.1. [애그리거트와 트랜잭션](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/애그리거트와트랜잭션.md)
-- 8.2. [선점 잠금](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/선점잠금.md)
-- 8.3. [비선점 잠금](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/비선점잠금.md)
-- 8.4. [오프라인 선점 잠금](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인서비스/오프라인선점잠금.md)
+- 8.1. [애그리거트와 트랜잭션](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트트랜잭션관리/애그리거트와트랜잭션.md)
+- 8.2. [선점 잠금](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트트랜잭션관리/선점잠금.md)
+- 8.3. [비선점 잠금](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트트랜잭션관리/비선점잠금.md)
+- 8.4. [오프라인 선점 잠금](https://github.com/gimhanul/screwbar/blob/main/DDD/애그리거트트랜잭션관리/오프라인선점잠금.md)
+
+## 9. 도메인 모델과 바운디드 컨텍스트
+
+- 9.1. [도메인 모델과 경계](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인모델과바운디드컨텍스트/도메인모델과경계.md)
+- 9.2. [바운디드 컨텍스트](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인모델과바운디드컨텍스트/바운디드컨텍스트.md)
+- 9.2. [바운디드 컨텍스트 구현](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인모델과바운디드컨텍스트/바운디드컨텍스트구현.md)
