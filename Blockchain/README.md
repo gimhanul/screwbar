@@ -15,3 +15,5 @@
 - 2.1. [What is Bitcoin?](https://github.com/gimhanul/screwbar/blob/main/Blockchain/암호화폐/WhatisBitcoin.md)
 - 2.2. [Bitcoin's Monetary Policy](https://github.com/gimhanul/screwbar/blob/main/Blockchain/암호화폐/BitcoinsMonetaryPolicy.md)
 - 2.3. [Understanding Mining Difficulty](https://github.com/gimhanul/screwbar/blob/main/Blockchain/암호화폐/UnderstandingMiningDifficulty.md)
+- 2.4. [Mining Pools](https://github.com/gimhanul/screwbar/blob/main/Blockchain/암호화폐/MiningPools.md)
+- 2.5. [Nonce Range](https://github.com/gimhanul/screwbar/blob/main/Blockchain/암호화폐/NonceRange.md)
