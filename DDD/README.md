@@ -81,3 +81,12 @@
 - 9.4. [바운디드 컨텍스트 간 통합](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인모델과바운디드컨텍스트/바운디드컨텍스트간통합.md)
 - 9.5. [바운디드 컨텍스트 간 관계](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인모델과바운디드컨텍스트/바운디드컨텍스트간관계.md)
 - 9.6. [컨텍스트 맵](https://github.com/gimhanul/screwbar/blob/main/DDD/도메인모델과바운디드컨텍스트/컨텍스트맵.md)
+
+## 10. 이벤트
+
+- 10.1. [시스템 간 강결합 문제](https://github.com/gimhanul/screwbar/blob/main/DDD/이벤트/시스템간강결합문제.md)
+- 10.2. [이벤트 개요](https://github.com/gimhanul/screwbar/blob/main/DDD/이벤트/이벤트개요.md)
+- 10.3. [이벤트, 핸들러, 디스패처 구현](https://github.com/gimhanul/screwbar/blob/main/DDD/이벤트/이벤트핸들러디스패처구현.md)
+- 10.4. [동기 이벤트 처리 문제](https://github.com/gimhanul/screwbar/blob/main/DDD/이벤트/동기이벤트처리문제.md)
+- 10.5. [동기 이벤트 처리](https://github.com/gimhanul/screwbar/blob/main/DDD/이벤트/동기이벤트처리.md)
+- 10.6. [이벤트 적용 시 추가 고려 사항](https://github.com/gimhanul/screwbar/blob/main/DDD/이벤트/이벤트적용시추가고려사항.md)
