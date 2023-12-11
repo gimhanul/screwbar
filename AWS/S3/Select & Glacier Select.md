@@ -1,0 +1,4 @@
+- retrieve less data using SQL by performing **server-side filtering**
+- can filter by rows & columns
+- 네트워크 전송이 줄어들기 때문에 데이터 검색과 필터링에 드는 클라이언트 측 CPU 비용도 절감
+- 속도 400% up 비용 80% down
