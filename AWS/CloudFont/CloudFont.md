@@ -1,0 +1,72 @@
+# Cloud Front
+- Cloud Deliver Network (CDN); 컨텐츠 전송 네트워크
+- improves read performance, content is cached at the edge
+- improves users experience
+- 전세계에 총 216 엣지 로케이션이 있음 (지속적으로 추가 중))
+- DDoS protection (because worldwide)
+- Shield
+- AWS Web Application Firewall
+
+![](https://velog.velcdn.com/images/chan9708/post/09922bb1-92ec-440c-8619-e83879e69778/image.png)
+
+## Origins
+- **S3 Bucket**
+	- CloudFront로 파일을 분산하고 캐싱함
+	- 버킷에는 CloudFront만 접근할 수 있게 보장함
+	- Origin Access Control (Origin 접근 제어)
+	- OAC는 [Origin Access Identity (OAI)](https://bosungtea9416.tistory.com/entry/AWS-CloudFront-OAI%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%A0%9C%ED%95%9C)를 대체함
+	- 버킷에 데이터를 보낼 수 있음 by ingress 
+- **Custom Origin (HTTP)**
+	- Application Load Balancer
+	- EC2 Instance
+	- S3 website (must first enable the bucket as a static S3 website)
+## CloudFront at a high level
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAU8AAACWCAMAAABpVfqTAAAB3VBMVEX////Jysru7u7d3t7a29vV1ta9vr6xsrLz8/PDxMT4+Pj7+/vn6Oj///3W19m3ubyoqq6KjpOUlptIT1qusbUABCSRe8YfLDv6+PxhNLdmOL5zeICBYckAAB4rNUI4Rb5gac9VW2TIveLZ0upQW8v///cAABc+hiOQeMoUJTYACyR3e4FWmTDUzOkyeRv3+O3P38lIjyny7sfs+/////G70bQ7RE/g8Pvy6eGQuOLgy7jX4Ojn8OLt9vHm5rni9PWz0qOby6HC5Nyzy4q33Mqmy5fV6dqm0K7/99rC1Z+4yt+2opJBixjr5vZ2UsOGasYsegmIlqbMwbvs49u92PDI4PSsx+aUhHjL3+a2wd/R7vuNveeIrtyayu3s2cajvtF8cmizxdJ6g5GVorLGsp6jlY653vZChMx4amLCzNeKeWtenNeamZ+Dkpxvr1SPtD2SwIBxtXKrwmOoxXmLumi+0piMworM4Lqtyout1ry34Ne8zH3m8NmQuFxzqzx6v49mrFjO26pcdIs/LztZV1LPuaMyLko9Umu5n4iObk4tS2o2PDyOpr1wgZhPmhyWuoVmm1WErXJqVTumlNMPGxurxaO4qtpZH79UjEUOaQAAAAB2lLGYndqTmM+AhtRrCQWzAAASMklEQVR4nO2di2PaRp7Hf4AfGCEbiK/1hU123ayaTUgjguRAEG8QYEi6wZgQpyl+AL045/Tc2hjcsN3Sja/ZbXKx23O2t338rfcbYccPZIxtgeWErw1ImtHMjw/z+GkkjQC66qqrrrrqqquuuuqqq6666qqrsy/NWZbutOk1yqTXnlnpTadNr1H9p23ASaRC41VoUutSofHEJFf/PPQODGo0AwIAn5rgdoUzQ+Q9LWytTpjv47uwE4NOTAJ17wEI9yhcoxIZGLnnxDUM0YHeOKAZ6B3QaIwkZTOk9SRFAZSSOnmm5wy9nE2r12bv4/d1Z5KDArgGKEZDPhizBje6nNpeAdIaI4ANMpxAZZBZhuw/wk09uMU95D7RfuIE5wguPaQeCp/e+RQYM+SmtVlBm3upT97POnPT6ZlJxFlMKWm82oQmJZ3pAZgxCZAkxa4IydmiYE6nXEYzO6cz2nRzCHnysTDD5gsJmJieyoxMccJD4bOpB/fu3YPMQ+oWXLr3GdxKTH4Kk7eYT2Dq3gP6ITAzw8VpKHJY4iEpZJ1JJ7gTQCqAksarTYRnhso6zbiM3x1cefxwD8/1zedMttw0MCmspwjCAkmd2eRk8jByKzPFJZxT9xLOxOQkjCQmt3jS/8GBYcpZ5/kJKZ/uNzzx1yLJYPkE9m3nydoGZrhH2IZmkWchA8W8zWvWCIVZG2Pr16XAxk7nJh8PWV3WYYEZBiHx6ZTzPyeFTzPcyIjhzuStB1OTD+mHic+mnLeEyYfOW5Of6G9NZer1nfCMI08nWU5n50YW6OSoYg2oOnkCbaCkF4ohLh1VXzWQECkSjeWXgtwTrL8Ya6QehRqRwka2t5AgaWn71ZARRfYCA0UpabzK1JpJdVh0I6XT1ZnlqVKp0Hg0iaGA2bPN2xiNpeovIsZb5ezSks8PLNlgN5A3+Qw8gAG8B7b3xZcBql7aQHs8FOsheVW9W3nSXmKJ11PPiInuSYgEMh6Pp+rfbbzahCb5QhDmWC/5rjRhFv+cA9ZL0R6g8VULAQ3w9K9A/1cI8OuzXjZa8otkEcIQ/9qJH9FFAEcIg8g/poGp4J4Yha5wVRBZcETAIzXFtS8AvozUInY+5gja6YodUxmPLHGlL0govwJfhphglSN2sPEYSQ6TAprxSGb5ouVlOxvbbbzaVOdZ8leibKAWKsWwiy9VI3wwHCrZg/GV8VB4lV/FbRXOFwjVVpf85eVqpOYXefsSx8cgMO4EPghPOUzCESw7cL+n5eXyIrNcDmIU73K0xP2lvBJHhBUugDzFUDwQ8QVB4glLZfz9KsSCCsQj+MswlZgjVOOWyiu8WFp1xEpRkf+Cj1Xs6CYEYlI88r9jvNq0xZMrrfqCAXsJqdHLtRXk6V8uB+Jf8WM+qXqVqqsVR6gCjq8cobjEM7DkrPl9q09DhGeYw/8SeeNjYSy2YURdYQNLXAWTFiFcjSwFRFKla1ERk4LqoifmWGWlErnNk8hXDlXGuXEs/mFfiF8lyZVqYjnkEynkXatI8cK7jVeb0KS46FlkPOFqjPUiEglvWRyjK15PPBIf80V4bADD3JdIMhwNR5ej1QjWd1/oqb8CrOdpyOFd8mB9H/f7IvZapBZaknguV4O10FPnkj/M/cWziLtEPVBGnv6nsfhq1VNBnrGqt1oN8tFSdImrLnt4bC75r7naX0ltgXA8Vov5MDnHF/FvwIOtjiNCWpxF9ZdP8JQNUI5CtWwgvQu+mFrEEWPKHsaLf3bsCHAji/0IXfbSnijjZSkvXfbEV6XYrIHF/UkTWY2SfxKV5UU7hVGAjeJKGZPBDBiR9GkMhftjOl6mGqWqdmy1MVWoerz4O5LeC6OyQF7VqJckh7lLn1IAtqrYUuwxXmWSN4ktBzjZgD2R9vjl9J7eWK63Z5r78eyhGdal+v797EqFxqvQpNalQuPJeAi2T1trTNO4u0SX22TPkaROntgRLGGLyYHd+3SVePEe7BY8O2/YZNnJJ0ZhPHbWDix2D6LUR+Bu1JvNp2K82oQmOVYCy8yiR/SteksR0pFUiAsd9n5OB8Pc114RHUzHaikQ8VSDDnRi0A2Khv2iYxV9GNwNXUmxvvlUjFebSPn8Ciro+4Sp8UjdeR8PBNCbDAQCIQe+RQAPfKLxa1Ari44Q+QtjkQ7UYmU/4G5kTx/ZHDkV49Ugg6Z3Wz11nkt45Ber2oO+IBtAB/8L/ht0rb1fcwx5E/lFu6dSjYXL6MWTA6SnsSWvGA+W/ePepXIU95Q2v7s89cad5W2T6u0mOoF0Q3QaGGl4iN4edwp7iSdJhj7INtrTsEenpGKeR1H18Cid0VvCUzVSifHH4umFxsNFencwkKNMmaHoNkqlPH3BveGSsx4Wx/ZsrPCNHc4up14a9Cn5S8RBcBx+7K+MVMpzvMTxlQBbCfKiyJVEsbocJSN0EBeX/I5KxCGKUBJX+IhPXIRxMViNkPHl1dpSqMxWKpLbGa6s0CXR85fIuHe84v8yyGJCHfgi6uTJB31f1fxYuKAWC6NzWfIH+ED0aSzq+Cq+iuVuEXz2GJbP1XHO569Iw2V8zEGGdiueVTIgSXxQ0RcsRUpciauWIjU/JtQJ90mdPGur9pVaiCn5GXKMs8SF8ZCIJuXThzzDHLMEpagIi8jTX/MvBSjGC/ziGDmxVPEEmRV0meIxZgW9WDJGX405CM/OHCypkye2gmVvaZUprdLjAS6MB0Q1LFzlwBjr56NxEf8j4AvYmWiVq3orZZGNAi+WY+VAtMouin4Cshaw41GVv0pVveNlPy9iQv6D81dM6uS5V+NNd6UrZTIqz4s1afiY9FGn6I2eBZ5nSSoxfjdPi+4MSyXXz+/mqevpgDSa9qSrPT2Gu7WbZ0ekVckXb5O6PJVVl6ey6vJUVl2eyqrLU1l1eSqrLk9l1eWprLo8lVWXp7Lq8lRW7wpPSq+gmuTzrvA0DSgmjaVJPu8KTyWHm/uahHV5Hl1dnofy1EoY0sS29KFEujwP41kYnfkWwDAhgJ5yz8Mhd5F3eR7Ck/kbBz/onr0szGeL367NPrbdbHpFS5fnITz5/wb4oec7eD5rS04XZh9xf880i97leVh9/3u+8B3/D+T5yOx83uXZgprzZPqGKGYQXGlr7h8ubQ+km84+cZZ4UrLhLgEtbXZYcqha85eYomX+8FhniWcyP0TIUXoDuSIftAhRD3p3ApjR/hQY9EBraWkKE1yktIyl1flcOuV/Gjpd/Q7jOa/NPSlmkqaJyUJiTRgqOrOmiXwWec65Uq588n6x38qnaIu0qElbW51vqFM8rc8Um7GnNRmbV4jCrFDkXC+KwOeLeQvTn31QhCSXQ57WYmYt1T+fgiKfggVcnC3k6SetZtspnv1mBTNqRd8/axqcfACFRCFR5ODx9PMX7tkk8iwknpPyCTb3tN5gM1ppa/plbtqgNybv21ptVDvFEwwKZtSK+jVNg7VYXSbmAQuxa8Slp/t6DEag+3TYbhpx48Qw5xoyQ3qeLI5gvHQL3Uc9272rXrusWktrP89B8wFq/lVPIGpEVsdrapoWj4O0j+fY3du79D9bunYsA7QXzBZZmT9sV2f/3nlZ/blN2cmogeflyze2dO2NPm8trX08ey/C0LCc4Ga7Cuh7H9BUg+hLv2s9BamdlKbQo4/VQsnwJEDr5fOkPI0f2qyN+tDYRp5yW+V4TjjlYtLF4RkMYEhrybbaZO6RHM/bt9fFsTH72Oara7dPyFMu2vvGc6fOk36c8prN9yE3zecLljk+z+RztnkyeSifKph1026L1TjrfmKTpd5MMjxvv7JvrpMK//nGmH1deZ5X1FA+Cw/WMkwKYM49b4ZCT55Joe8JawnkmXTy+aTfwr5Yy0iT2x5JMjxfbd69XW9Bscrb31aembWEK4+f34INit6US+KZS2ERTTrZfNIiuBTieXfD82q93oBe29j0vKU8XQvQbxpBgj9DemEeJoYEMhYCEwuz0DvCCMXBrFFIO11K1Pf1zfXNsbrEa/bbOzwnbPNp2/DBaamG58iftnRHWm3Wv7vlRyALpmPexyHD86exu3fRDZWK6I2xHZ7sTU6r035/8E+mGp53zl/6CHXp40vS6lH8pZNKrn+X3jZgA3Gub96+8aZ8Zs8JLnI+6SCph+fH9dU/q4Dn9ct37YTn5Ruv7OKN9ei1HZ7g/g7gh8kD01Ifz4+kD+RpbNsh7h71GRp5Xr87drmu2xtjnrEo9vXfSGHss2ezSevowafkVMGTvvTjx+e3CuSfzn/84yUaeWr+19bT237pnn2/bxhN4rn50+VtopsbxBP9ZiuUApkJKHakBp6vz3/8+s5Ofb/z+nfnf/zolMvnq403PMckT/SbFlPbu3oaPP/5HunS97Sf2h//eZrjIdevX994dVcpnj2DjbrS9uNNFfXv/4c8f9rc5nn5ZDwNF9+X0UWDivxPpSXH8zpxQCWtj92+fGyeg1e1jYNnRIYrvYrY3qjWj4/aJTmedzfsY5tEdqmnPy5PsF74N1ldsCphuZzUyROJXl9f31j/6W693t/4qbW0Gk8QGGTVvjOdauVJkKJnv61j8ly4IK8P23auU8U8USfkabyg2/+wxbqMVweVMb5BquZ5+YQ8ey/uC9ddvEl00XBu4Nj2NtfJzx+dVG08/z64n6fmX1eJ/mVsH8/z/y6n0/PnT6T9PK/sj9Bbd+jhYrv8T0q+A+zgtRTtvD7k5s1RWZ270uFrmTqodvKk+oZk1dfpa286qI5dv/SOqMtTWZ1JnqzJpM2/WaNNjMm0c1aLNpJHUJoE8tjZbfXuHgR37TwaWXkdhSdTNAs5y8G2dIxn1mlw5aF/GHrxb6Lf4noBdO8wa5qH3n4hNyoAboC0yYZhgouQTToR8SykF7gJE/U4bxRYXMO4ypt2FJ5rCWZu7eDTRwfw1FOMoOwhO/MSi2g+mXEnilD0p9g51rqgt0KWS963UTbyrGLXqEVvZqy5RMFv1lolnlmuMJ+itXp3okB25J5nZqg2HPcekWdq7f7B4bI8k/mF9Iu0c+tESeHIFwjIyUp4Frn4dBGSuhewgMWRSYEN3PctYOaxJahvKObmTIxNgwe3SY6EDr8A3lxIFJzuWTO4E+ZdDYJiOmJ9d6abAJHjSZ7EnJtecxb7p3NPssLjvEycI8v9ZEGXzz0xOwsWG5c1pQi+BShYzLQFLDCD9d26IBRNc7knJmdyeBZ5WmbdFjNVNPWai/PuVHpyzWKGBfxTXO3uj+ISz0KPtT/lnszNJ5WZgpuWHsUL9dODb9oSw65AafvabGH2zYXmBmkTvbXULhe43TwZmzadflHQzYFB4tn0BjvFpev0XU/t95dc/UMGIc2lTYLLyRpdKpnetW2S4akf6tulIwxVqsqf16nm/k3TxV0XZ4+eaz0tVfG0dfqGp7rkeO62RHdGeRoszWaHaZ/keb5/pa6rmp4zyvOEtwkfW/I8d2ZUGjyrPNVz/zvyNG1pwXhmy6eqeFq27wzUdcvn0XRYf9TleTTJ87x64Wr9VGS3Pzqi3tbyabDaTiVfeZ62LVl1Z7Z8mk/nyFae5/aZyGHtLp70Iy6Xev5s1Pbo3Gjf6KPZhh1VxVPf8nO7FdUR6jv9TFh7Cc+ngf4buH+Of9ewoyp4/vL7ffqt8emzbdRReD4yz/xMeDLI89wzdZbP1781bPmlk/kfqXxyuZd1npz7Z5m01MDzj40Dxb/vZP5H4dlHuebJuVZ6GFxyN9urgicF8OsH9G/w+vUUfPDRr4J6eR4qlfC8MwWXftX/Aq8/+m1qiuryPJEIzw/g11+nXsNr4ZcpcsNMl+cJJNV3ArNb3xXRHxuvnCA8qd0TQ5Jz3nTv1qk6WtlrUd8RnmTiCjJCYhwxGMkKnR0cBiOZDYw2aykwKHYe9N3h6c4XM8mhec1E3j0JOXKBk8YM2T5hpi/FP5lo9KaPp3eHZ5Fz5ecAJsiFFZCbBnCZbK4U0BYw5570d4rnWRsPOYhnfrAwW8hkdb3IkMyaatUNJO9nDTbdoBnMrpRio6UyPIc+3H3z1WjraamYp6FnECYEYPo417yW3J/A9An0gBFcfZQWjJAeUmq0VO76kOPeGqFinh3Tmbw+uYm6PJVVl6ey6vJUVn9o6FjoLs8TaOoP2n2T/f72upP5v208Eeg+dRSnsjzrbdchT/V5u6XpV05bZ2ilqbJ6dDqj0ajV6ts5vcU7of8HN5skjYWA5V0AAAAASUVORK5CYII=)
+
+### S3 as an Origin 
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk89idMFsrCUIsTtQiQHwjQEnRERxUQDlLOg&usqp=CAU)
+
+### ALB or EC2 as an origin
+
+![](https://img2020.cnblogs.com/blog/364241/202108/364241-20210801175834154-1628065892.png)
+
+
+## CloudFront vs S3 Cross Region Replication
+
+- CloudFront:
+	- Global Edge network
+	- Files are cached for a TTL (maybe a day)
+	- **Great for static content that must be available everywhere**
+- S3 Cross Region Replication:
+	- Must be setup for each region you want replication to happen
+	- Files are updated in near real-time
+	- Read only
+	- **Great for dynamic content that needs to be available at low-latency in few regions**
+
+## CloudFront Geo Restriction
+
+- 지역에 따라 배포 객체에 접근 제한
+	- Allowlist나 Blocklist 설정 가능
+- 국가는 서드 파티 Geo-IP DB에서 설정한 것임 
+
+## Pricing
+- CloudFront Edge locations are all around the world
+- 데이터 전송 비용이 다름 per edge location varies
+- 더 많은 데이터가 전송될수록 비용은 낮아짐
+
+### Price Classes
+- You can reduce the number of edge locations for **cost reduction**
+- Three price classes:
+	- Price Class All: all regions - best performance
+	- Price Class 200: most regions, but exclude the most expensive regions
+	- Price Class 100: only the least expensive regions
+
+## Cache Invalidations
+
+- 캐시 무효화!!!!
+- Cache TTL를 모두 제거해 새 콘텐츠를 얻게함
+- 특정 파일 경로를 전달해 무효화 할 수 있음
+
+![](https://velog.velcdn.com/images/xodbs1123/post/de72c2f1-72c0-4c22-931a-c75bb8fee536/image.png)
